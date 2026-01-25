@@ -1,8 +1,34 @@
-import React from 'react'
-
+"use client"
+import { performLogin } from '@/app/actions'
+import { useAuth } from '@/app/hooks/useAuth'
+import React, { useState } from 'react'
+import { useRouter } from 'next/navigation'
 export const LoginForm = () => {
+  const[error,setError] = useState("")
+  const router = useRouter()
+  
+  const {setAuth} = useAuth();
+
+  async function onSubmit(event){
+    event.preventDefault()
+    try {
+      const formData = new FormData(event.currentTarget)
+      const found = await performLogin(formData)
+      if(found){
+        setAuth(found)
+        router.push("/")
+      }else{
+        setError("Invalid credentials")
+      }
+    } catch (error) {
+      setError(error.message)
+    }
+  }
   return (
-    <form className="login-form">
+    <>
+      {error && <p className="text-red-500">{error}</p>}
+   
+    <form className="login-form" onSubmit={onSubmit}>
             {/* <!-- email --> */}
             <div>
               <label htmlFor="email">Email Address</label>
@@ -21,5 +47,6 @@ export const LoginForm = () => {
               Login
             </button>
           </form>
+           </>
   )
 }

@@ -17,8 +17,17 @@ async function getEventById(eventId){
     
  }
 
+ async function findUserByCredentials(credentials) {
+    const user = await  userModel.findOne(credentials).lean()
+    if(user){
+        return replaceMongoIdInObject(user)
+    }
+    return null
+ }
+
 export {
     getAllEvents,
     getEventById,
-    createUser
+    createUser,
+    findUserByCredentials
 }
