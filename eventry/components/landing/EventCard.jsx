@@ -27,7 +27,7 @@ const EventCard = ({ event }) => {
           <span>|</span>
           <span>{event?.going_ids?.length} Going</span>
         </div>
-        <ActionButtons eventId={event?.id} interestedUserIds={event?.interested_ids} />
+        <ActionButtons eventId={event?.id} interestedUserIds={event?.interested_ids} goingUserIds={event?.going_ids}/>
       </div>
     </div>
   );
