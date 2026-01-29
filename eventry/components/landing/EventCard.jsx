@@ -2,7 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ActionButtons from '../ActionButtons';
 
-const EventCard = ({event}) => {
+const EventCard = ({ event }) => {
+  console.log(event)
+
   return (
     <div className="overflow-hidden rounded-md bg-[#242526]">
       <Image
@@ -25,7 +27,7 @@ const EventCard = ({event}) => {
           <span>|</span>
           <span>{event?.going_ids?.length} Going</span>
         </div>
-        <ActionButtons />
+        <ActionButtons eventId={event?.id} interestedUserIds={event?.interested_ids} />
       </div>
     </div>
   );

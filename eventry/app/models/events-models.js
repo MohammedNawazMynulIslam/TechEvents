@@ -18,7 +18,7 @@ const schema = new Schema({
         required: true,
     },
     interested_ids:{
-        type:Array,
+        type:mongoose.Schema.Types.ObjectId,
         required:false
     },
     

@@ -5,6 +5,7 @@ import { getEventById } from "@/db/queries"
 
 const page = async ({params: {id}}) => {
   const eventInfo = await getEventById(id)
+ 
   return (
     <>
       <HeroSection eventInfo={eventInfo} />

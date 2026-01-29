@@ -1,6 +1,6 @@
 "use server"
 
-const { createUser, findUserByCredentials } = require("@/db/queries")
+const { createUser, findUserByCredentials, updateInterest } = require("@/db/queries")
 const { redirect } = require("next/navigation")
 
 async function registerUser(formData){
@@ -19,4 +19,12 @@ async function performLogin(formData) {
     }
    
 }
-export { registerUser ,performLogin}
+
+async function addInterestedEvent(eventId,authId){
+try {
+    await updateInterest(eventId,authId)
+} catch (error) {
+    throw error
+}
+}
+export { registerUser ,performLogin,addInterestedEvent}
