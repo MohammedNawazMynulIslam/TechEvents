@@ -54,4 +54,4 @@ async function sendEmail(eventId,user){
         text: message,
       })
 }
-export { registerUser ,performLogin,addInterestedEvent,addGoingEvent,send}
+export { registerUser ,performLogin,addInterestedEvent,addGoingEvent,sendEmail}
