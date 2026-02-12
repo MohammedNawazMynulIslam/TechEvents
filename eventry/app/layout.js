@@ -1,26 +1,26 @@
-import { Inter } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { dbConnect } from "@/services/mongo";
 import AuthProvider from "./Providers/AuthProvider";
 
-const inter = Inter({ subsets: ["latin"] });
+const outfit = Outfit({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700", "800"] });
 
 export const metadata = {
-  title: "Eventry - Home",
-  description: "A single entry to connect to all events in your area.",
+  title: "Eventry – Discover Tech Events Worldwide",
+  description: "Your single entry point to discover, explore, and attend the best technology events happening around the globe.",
 };
 
-export default async function  RootLayout({ children }) {
+export default async function RootLayout({ children }) {
   await dbConnect();
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={outfit.className}>
         <AuthProvider>
-        <Navbar />
-        <main className="py-8">
-          {children}
-        </main>
+          <Navbar />
+          <main className="pt-24 pb-16">
+            {children}
+          </main>
         </AuthProvider>
       </body>
     </html>

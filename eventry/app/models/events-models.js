@@ -1,4 +1,4 @@
-import mongoose, {Schema} from "mongoose"
+import mongoose, { Schema } from "mongoose"
 
 const schema = new Schema({
     name: {
@@ -17,21 +17,28 @@ const schema = new Schema({
         type: String,
         required: true,
     },
-    interested_ids:{
-        type:mongoose.Schema.Types.ObjectId,
-        required:false
+    latitude: {
+        type: Number,
+        required: false,
     },
-    
-    going_ids:{
-        type:Array,
-        required:false
+    longitude: {
+        type: Number,
+        required: false,
     },
-    swags:{
-        type:Array,
-        required:false
+    interested_ids: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: false
+    },
+
+    going_ids: {
+        type: Array,
+        required: false
+    },
+    swags: {
+        type: Array,
+        required: false
     }
 
 })
 
 export const eventModel = mongoose.models.events ?? mongoose.model("events", schema)
-

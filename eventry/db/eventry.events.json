@@ -1,122 +1,144 @@
-[{
-  "_id": {
-    "$oid": "661e259be4ffc982667a3ef0"
+[
+  {
+    "_id": {
+      "$oid": "661e259be4ffc982667a3ef0"
+    },
+    "name": "Web Summit",
+    "details": "Web Summit is an annual technology conference held in Lisbon, Portugal, considered one of the largest tech events in the world. With over 70,000 attendees, it brings together Fortune 500 companies, groundbreaking startups, world-class speakers, and leading journalists to discuss the future of technology.",
+    "location": "Lisbon, Portugal",
+    "latitude": 38.7685,
+    "longitude": -9.0934,
+    "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=500&fit=crop",
+    "interested_ids": [],
+    "going_ids": [],
+    "swags": [
+      "Free T-Shirts",
+      "Networking",
+      "Free WIFI"
+    ],
+    "__v": 31
   },
-  "name": "Web Summit",
-  "details": "Web Summit is an annual technology conference held in Lisbon, Portugal, considered one of the largest tech events in the world.",
-  "location": "Lisbon, Portugal",
-  "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263923/youtube/eventry/Web-Summit-2023-highlights_pdmals.jpg",
-  "interested_ids": [],
-  "going_ids": [],
-  "swags": [
-    "Free T-Shirts",
-    "Netowrking",
-    "Free WIFI"
-  ],
-  "__v": 31
-},
-{
-  "_id": {
-    "$oid": "661e259be4ffc982667a3ef1"
+  {
+    "_id": {
+      "$oid": "661e259be4ffc982667a3ef1"
+    },
+    "name": "CES (Consumer Electronics Show)",
+    "details": "CES is an annual trade show organized by the Consumer Technology Association. It showcases the latest innovations in consumer electronics, autonomous vehicles, AI, robotics, and smart home technology from companies around the globe.",
+    "location": "Las Vegas, USA",
+    "latitude": 36.1699,
+    "longitude": -115.1398,
+    "imageUrl": "https://images.unsplash.com/photo-1559223607-a43c990c692c?w=800&h=500&fit=crop",
+    "interested_ids": [],
+    "going_ids": [],
+    "__v": 28,
+    "swags": []
   },
-  "name": "CES (Consumer Electronics Show)",
-  "details": "CES is an annual trade show organized by the Consumer Technology Association. It showcases the latest innovations in consumer electronics and technology.",
-  "location": "Las Vegas, USA",
-  "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263924/youtube/eventry/CES_obrqg5.webp",
-  "interested_ids": [],
-  "going_ids": [],
-  "__v": 28,
-  "swags": []
-},
-{
-  "_id": {
-    "$oid": "661e259be4ffc982667a3ef2"
+  {
+    "_id": {
+      "$oid": "661e259be4ffc982667a3ef2"
+    },
+    "name": "Mobile World Congress",
+    "details": "Mobile World Congress is the largest mobile event in the world, bringing together the latest innovations and leading-edge technology from over 2,400 leading companies, including transformative 5G, IoT, AI, and next-gen mobile experiences.",
+    "location": "Barcelona, Spain",
+    "latitude": 41.3545,
+    "longitude": 2.1295,
+    "imageUrl": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&h=500&fit=crop",
+    "interested_ids": [],
+    "going_ids": [],
+    "__v": 2,
+    "swags": []
   },
-  "name": "Mobile World Congress",
-  "details": "Mobile World Congress is the largest mobile event in the world, bringing together the latest innovations and leading-edge technology from over 2,400 leading companies.",
-  "location": "Barcelona, Spain",
-  "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/Mobile-World-Congress-MWC_nutca0.jpg",
-  "interested_ids": [],
-  "going_ids": [],
-  "__v": 2,
-  "swags": []
-},
-{
-  "_id": {
-    "$oid": "661e259be4ffc982667a3ef3"
+  {
+    "_id": {
+      "$oid": "661e259be4ffc982667a3ef3"
+    },
+    "name": "Google I/O",
+    "details": "Google I/O is an annual developer conference held by Google in Mountain View, California. It showcases the latest in Android, AI, Cloud, and product innovation from Google, featuring hands-on workshops and inspiring keynotes.",
+    "location": "Mountain View, USA",
+    "latitude": 37.426,
+    "longitude": -122.0838,
+    "imageUrl": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&h=500&fit=crop",
+    "interested_ids": [],
+    "going_ids": [],
+    "__v": 1,
+    "swags": []
   },
-  "name": "Google I/O",
-  "details": "Google I/O is an annual developer conference held by Google. It showcases the latest in technology and product innovation from Google.",
-  "location": "Mountain View, USA",
-  "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/Google-IO_vij3kz.webp",
-  "interested_ids": [],
-  "going_ids": [],
-  "__v": 1,
-  "swags": []
-},
-{
-  "_id": {
-    "$oid": "661e259be4ffc982667a3ef4"
+  {
+    "_id": {
+      "$oid": "661e259be4ffc982667a3ef4"
+    },
+    "name": "Microsoft Build",
+    "details": "Microsoft Build is an annual conference event held by Microsoft, aimed at software engineers and web developers. It covers Azure, AI, developer tools, and the latest in cloud computing and open-source technologies.",
+    "location": "Seattle, USA",
+    "latitude": 47.6062,
+    "longitude": -122.3321,
+    "imageUrl": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&h=500&fit=crop",
+    "interested_ids": [],
+    "going_ids": []
   },
-  "name": "Microsoft Build",
-  "details": "Microsoft Build is an annual conference event held by Microsoft, aimed at software engineers and web developers.",
-  "location": "Seattle, USA",
-  "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/MS-Build_rdbtxc.jpg",
-  "interested_ids": [],
-  "going_ids": []
-},
-{
-  "_id": {
-    "$oid": "661e259be4ffc982667a3ef5"
+  {
+    "_id": {
+      "$oid": "661e259be4ffc982667a3ef5"
+    },
+    "name": "AWS re:Invent",
+    "details": "AWS re:Invent is an annual learning conference hosted by Amazon Web Services for the global cloud computing community. It features keynotes, training sessions, certification opportunities, and over 1,500 technical sessions.",
+    "location": "Las Vegas, USA",
+    "latitude": 36.1215,
+    "longitude": -115.1739,
+    "imageUrl": "https://images.unsplash.com/photo-1591115765373-5f9cf1da241c?w=800&h=500&fit=crop",
+    "interested_ids": [],
+    "going_ids": []
   },
-  "name": "AWS re:Invent",
-  "details": "AWS re:Invent is an annual learning conference hosted by Amazon Web Services for the global cloud computing community.",
-  "location": "Las Vegas, USA",
-  "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263921/youtube/eventry/AWS_reInvent_by_VISEO_vb8cnk.jpg",
-  "interested_ids": [],
-  "going_ids": []
-},
-{
-  "_id": {
-    "$oid": "661e259be4ffc982667a3ef6"
+  {
+    "_id": {
+      "$oid": "661e259be4ffc982667a3ef6"
+    },
+    "name": "TechCrunch Disrupt",
+    "details": "TechCrunch Disrupt is an annual conference hosted by TechCrunch in San Francisco, featuring the Startup Battlefield competition, live demos, and panels with the biggest names in tech and venture capital.",
+    "location": "San Francisco, USA",
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "imageUrl": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&h=500&fit=crop",
+    "interested_ids": [],
+    "going_ids": []
   },
-  "name": "TechCrunch Disrupt",
-  "details": "TechCrunch Disrupt is an annual conference hosted by TechCrunch, featuring the latest in technology and startup innovation.",
-  "location": "San Francisco, USA",
-  "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263921/youtube/eventry/techcrunch-disrupt_pk8gd1.jpg",
-  "interested_ids": [],
-  "going_ids": []
-},
-{
-  "_id": {
-    "$oid": "661e259be4ffc982667a3ef7"
+  {
+    "_id": {
+      "$oid": "661e259be4ffc982667a3ef7"
+    },
+    "name": "Collision",
+    "details": "Collision is a tech conference produced by the team behind Web Summit, held in Toronto, Canada. It brings together the people and companies redefining the global tech industry with networking, talks, and exhibitions.",
+    "location": "Toronto, Canada",
+    "latitude": 43.6532,
+    "longitude": -79.3832,
+    "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=500&fit=crop",
+    "interested_ids": [],
+    "going_ids": []
   },
-  "name": "Collision",
-  "details": "Collision is a tech conference produced by the team behind Web Summit. It brings together the people and companies redefining the global tech industry.",
-  "location": "Toronto, Canada",
-  "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/collision_wbfwcc.jpg",
-  "interested_ids": [],
-  "going_ids": []
-},
-{
-  "_id": {
-    "$oid": "661e259be4ffc982667a3ef8"
+  {
+    "_id": {
+      "$oid": "661e259be4ffc982667a3ef8"
+    },
+    "name": "IFA (Internationale Funkausstellung Berlin)",
+    "details": "IFA is the world's leading trade show for consumer electronics and home appliances, held annually in Berlin, Germany. It showcases cutting-edge products from global brands in audio, video, smart home, and wearable tech.",
+    "location": "Berlin, Germany",
+    "latitude": 52.5074,
+    "longitude": 13.2719,
+    "imageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=500&fit=crop",
+    "interested_ids": [],
+    "going_ids": []
   },
-  "name": "IFA (Internationale Funkausstellung Berlin)",
-  "details": "IFA is the world's leading trade show for consumer electronics and home appliances, held annually in Berlin, Germany.",
-  "location": "Berlin, Germany",
-  "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/IFA1_ee0qwu.jpg",
-  "interested_ids": [],
-  "going_ids": []
-},
-{
-  "_id": {
-    "$oid": "661e259be4ffc982667a3ef9"
-  },
-  "name": "GITEX Technology Week",
-  "details": "GITEX Technology Week is an annual tech event held in Dubai, United Arab Emirates, showcasing the latest trends and innovations across various sectors.",
-  "location": "Dubai, UAE",
-  "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/Gitex_obi5ai.jpg",
-  "interested_ids": [],
-  "going_ids": []
-}]
+  {
+    "_id": {
+      "$oid": "661e259be4ffc982667a3ef9"
+    },
+    "name": "GITEX Technology Week",
+    "details": "GITEX Technology Week is an annual tech event held in Dubai, United Arab Emirates, showcasing the latest trends and innovations across AI, cybersecurity, fintech, cloud computing, and the metaverse to a global audience.",
+    "location": "Dubai, UAE",
+    "latitude": 25.2414,
+    "longitude": 55.2979,
+    "imageUrl": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&h=500&fit=crop",
+    "interested_ids": [],
+    "going_ids": []
+  }
+]
